@@ -1,0 +1,13 @@
+"offlineError" = "No internet connection!";
+"genericErrorLabel" = "Something went wrong.";
+"countryListTitle" = "Country List";
+"topArtistsTitle" = "Top Artists";
+"artistDetailsTitle" = "Artist Details";
+"listenersLabel" = "Listeners";
+"similarArtistsTitle" = "Similar artists";
+"tagsTitle" = "Tags";
+"playcountLabel" = "Playcount";
+"summaryTitle" = "Summary";
+"noArtistsMessageLabel" = "There are no top artists for this country.";
+"errorLabel" = "Error";
+"okLabel" = "Ok";
