@@ -1,4 +1,4 @@
-// MARK: Storing these here for demo purposes (otherwise should be put in .xcconfig files and untracked)
+// MARK: Storing these here for demo purposes (otherwise should be put in .xcconfig files and untracked).
 enum AppConfig: String {
     
     case APIkey = "7856e9cfe91f20aec9fef03b5d55b316"

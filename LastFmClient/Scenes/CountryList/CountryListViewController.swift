@@ -48,12 +48,8 @@ class CountryListViewController: AppViewController<CountryListViewModel> {
         view.addSubview(loadingIndicator)
         loadingIndicator.isHidden = false
         tableView.isHidden = true
-        loadingIndicator
-            .centerYAnchor
-            .constraint(equalTo: view.centerYAnchor).isActive = true
-        loadingIndicator
-            .centerXAnchor
-            .constraint(equalTo: view.centerXAnchor).isActive = true
+        loadingIndicator.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        loadingIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
 }
 

@@ -74,12 +74,8 @@ class DetailsScreenViewController: AppViewController<DetailsScreenViewModel> {
     private func setLoader() {
         view.addSubview(loadingIndicator)
         loadingIndicator.isHidden = false
-        loadingIndicator
-            .centerYAnchor
-            .constraint(equalTo: view.centerYAnchor).isActive = true
-        loadingIndicator
-            .centerXAnchor
-            .constraint(equalTo: view.centerXAnchor).isActive = true
+        loadingIndicator.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        loadingIndicator.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
     
     private func setConstraints() {

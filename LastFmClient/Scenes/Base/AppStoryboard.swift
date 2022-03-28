@@ -2,7 +2,6 @@ import UIKit
 
 enum AppStoryboard: String {
 
-    case welcome = "Welcome"
     case countryList = "CountryList"
     case topArtistsByCountry = "TopArtistsByCountry"
     case detailsScreen = "DetailsScreen"

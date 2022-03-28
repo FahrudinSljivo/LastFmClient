@@ -15,8 +15,8 @@
 		600CE2A727EE0927001145A6 /* CountryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CE2A627EE0927001145A6 /* CountryListTableViewCell.swift */; };
 		600CE2A927EE3AE2001145A6 /* TopArtistsByCountryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CE2A827EE3AE2001145A6 /* TopArtistsByCountryRepository.swift */; };
 		600CE2AB27EE3AF4001145A6 /* ArtistDetailsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CE2AA27EE3AF3001145A6 /* ArtistDetailsRepository.swift */; };
-		600CE2AD27EE3BBC001145A6 /* TopArtists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CE2AC27EE3BBC001145A6 /* TopArtists.swift */; };
-		600CE2AF27EE3DB0001145A6 /* ArtistDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CE2AE27EE3DB0001145A6 /* ArtistDetails.swift */; };
+		600CE2AD27EE3BBC001145A6 /* TopArtistsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CE2AC27EE3BBC001145A6 /* TopArtistsResponse.swift */; };
+		600CE2AF27EE3DB0001145A6 /* ArtistDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CE2AE27EE3DB0001145A6 /* ArtistDetailsResponse.swift */; };
 		600CE2B127EE809F001145A6 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CE2B027EE809F001145A6 /* UITableViewCellExtension.swift */; };
 		6012C1D727EF65BC00EB2402 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012C1D627EF65BC00EB2402 /* UIImageViewExtension.swift */; };
 		6012C1DA27EF667200EB2402 /* SVGKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6012C1D927EF667200EB2402 /* SVGKit */; };
@@ -84,8 +84,8 @@
 		600CE2A627EE0927001145A6 /* CountryListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListTableViewCell.swift; sourceTree = "<group>"; };
 		600CE2A827EE3AE2001145A6 /* TopArtistsByCountryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArtistsByCountryRepository.swift; sourceTree = "<group>"; };
 		600CE2AA27EE3AF3001145A6 /* ArtistDetailsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsRepository.swift; sourceTree = "<group>"; };
-		600CE2AC27EE3BBC001145A6 /* TopArtists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArtists.swift; sourceTree = "<group>"; };
-		600CE2AE27EE3DB0001145A6 /* ArtistDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetails.swift; sourceTree = "<group>"; };
+		600CE2AC27EE3BBC001145A6 /* TopArtistsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArtistsResponse.swift; sourceTree = "<group>"; };
+		600CE2AE27EE3DB0001145A6 /* ArtistDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsResponse.swift; sourceTree = "<group>"; };
 		600CE2B027EE809F001145A6 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
 		6012C1D627EF65BC00EB2402 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		6012C1DB27EF76F800EB2402 /* TopArtistsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArtistsTableViewCell.swift; sourceTree = "<group>"; };
@@ -334,8 +334,8 @@
 			isa = PBXGroup;
 			children = (
 				608B333427ECCD9000445CD3 /* Country.swift */,
-				600CE2AC27EE3BBC001145A6 /* TopArtists.swift */,
-				600CE2AE27EE3DB0001145A6 /* ArtistDetails.swift */,
+				600CE2AC27EE3BBC001145A6 /* TopArtistsResponse.swift */,
+				600CE2AE27EE3DB0001145A6 /* ArtistDetailsResponse.swift */,
 				609A05A027F15FB500A13349 /* ErrorResponse.swift */,
 			);
 			path = Models;
@@ -517,8 +517,8 @@
 				6012C1DC27EF76F800EB2402 /* TopArtistsTableViewCell.swift in Sources */,
 				600CE2A227EE0033001145A6 /* StringExtension.swift in Sources */,
 				609A059427F1219E00A13349 /* SelfSizingUICollectionView.swift in Sources */,
-				600CE2AD27EE3BBC001145A6 /* TopArtists.swift in Sources */,
-				600CE2AF27EE3DB0001145A6 /* ArtistDetails.swift in Sources */,
+				600CE2AD27EE3BBC001145A6 /* TopArtistsResponse.swift in Sources */,
+				600CE2AF27EE3DB0001145A6 /* ArtistDetailsResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

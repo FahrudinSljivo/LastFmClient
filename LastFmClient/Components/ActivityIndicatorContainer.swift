@@ -24,11 +24,7 @@ class ActivityIndicatorContainer: UIView {
 
     private func setup() {
         addSubview(activityIndicator)
-        activityIndicator
-            .centerYAnchor
-            .constraint(equalTo: centerYAnchor).isActive = true
-        activityIndicator
-            .centerXAnchor
-            .constraint(equalTo: centerXAnchor).isActive = true
+        activityIndicator.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+        activityIndicator.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
     }
 }
